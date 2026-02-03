@@ -1,0 +1,66 @@
+body {
+  background: #e0e0e0; /* soft light gray */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Poppins', ; /* softer, playful font */
+}
+
+
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px; /* sharp edges */
+  text-align: center;
+  width: 320px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+video {
+  width: 100%;
+  border-radius: 0; /* sharp video edges */
+  margin-bottom: 15px;
+}
+
+h1 {
+  color: rgb(0, 0, 0); /* black question text */
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+button {
+  padding: 14px 28px; /* bigger padding: was 10px 22px */
+  font-size: 18px;    /* slightly larger text: was 16px */
+  font-weight: 700;   /* keep bold */
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15);
+}
+
+
+/* YES button */
+#yesBtn {
+  background: #ff002f;
+  color: white;
+}
+
+/* NO button */
+#noBtn {
+  background: #d1d1d1;
+  color: #333;
+  transition: transform 0.2s ease;
+}
+
+/* Hover effect */
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25);
+}
